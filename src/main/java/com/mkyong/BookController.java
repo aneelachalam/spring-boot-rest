@@ -23,7 +23,7 @@ public class BookController {
     }
     @GetMapping("/test")
     String test() {
-        return "Testing";
+        return "Testing 1";
     }
 
     // Save
