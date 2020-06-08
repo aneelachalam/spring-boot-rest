@@ -13,7 +13,7 @@ pipeline {
          stage('Deploy - Staging') {
              
              steps {
-                 echo 'Deploying to Staging from jenkins...'
+                 echo 'Deploying to Staging from jenkins....,,'
              }
              post {
                  always {
