@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('Build') {
              when {
-               branch 'POD-3'
+               branch 'POD-6-branch'
              }
              steps {
                  echo 'Building...'
